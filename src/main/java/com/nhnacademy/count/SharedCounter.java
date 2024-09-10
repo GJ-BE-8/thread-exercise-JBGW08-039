@@ -38,7 +38,6 @@ public class SharedCounter {
             semaphore.release()를 호출하여
             허가를 반환 합니다.
          */
-
         try {
             semaphore.acquire();
             return count;
